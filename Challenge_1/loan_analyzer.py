@@ -86,7 +86,7 @@ print("Remaining months:", remaining_months)
 #   HINT: Present Value = Future Value / (1 + Discount_Rate/12) ** remaining_months
 
 annual_discount_rate = .2
-present_value = future_value / (1 + annual_discount_rate/12) ** 
+present_value = future_value / (1 + annual_discount_rate/12) ** remaining_months
 
 # If Present Value represents what the loan is really worth, does it make sense to buy the loan at its cost?
 # @TODO: Write a conditional statement (an if-else statement) to decide if the present value represents the loan's fair value.
